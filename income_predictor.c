@@ -11,7 +11,8 @@ const   char    gbp     = 156;
 
 void calculate(float i){
     hours = i;
-    income = (hours * rate) * tax;
+    income = (hours * rate);
+    //income = (hours * rate) * tax;
 
     if (hours > 0){
         printf( "You earn approximately %c%4.2f, which leaves you with %c%4.2f after rent.", gbp, (income), gbp, (income - rent ) );
