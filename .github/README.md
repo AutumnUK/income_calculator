@@ -4,7 +4,6 @@
 The project of today is a simple calculator to quickly work out how much I'll be paid after I finish working for the week.
 
 Todo :
-- Build tax calculator (it uses an appriximation based on my average).
 - Adjustable payment rates (with hint to my current rate).
 - Make a GUI
 - Save previous payments in a table.
